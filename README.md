@@ -1,2 +1,3 @@
 # tes_CSharpe_ResourceText
-test script , language of C# pargrom
+test script that C# API.
+language of C# pargrom.
