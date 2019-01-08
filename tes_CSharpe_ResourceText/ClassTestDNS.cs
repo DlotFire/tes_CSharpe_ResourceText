@@ -10,6 +10,9 @@ namespace tes_CSharpe_ResourceText
             DoGetHostAddresses();
         }
 
+        /// <summary>
+        /// 获取地址
+        /// </summary>
         public void DoGetHostAddresses()
         {
             IPAddress[] ips;

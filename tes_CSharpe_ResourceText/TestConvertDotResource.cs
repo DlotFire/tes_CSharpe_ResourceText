@@ -124,7 +124,6 @@ namespace tes_CSharpe_ResourceText
 
         }
 
-
         /// <summary>
         /// 打印信息
         /// </summary>
