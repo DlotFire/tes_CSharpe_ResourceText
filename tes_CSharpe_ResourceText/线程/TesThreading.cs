@@ -8,13 +8,13 @@ namespace tes_CSharpe_ResourceText.线程
         public TesThreading()
         {
             Console.WriteLine("Come IN TesThread Class!!!");
-            
+
             //EnqueueThreadPool();//有线程存在才会执行，且线程执行完毕才会执行它。
             //Thread.Sleep(1000);//如不挂起，ThreadPool不会执行。
 
             //TesThreadStart();
 
-            //HelpFunction();
+            TesWaitHandle();
         }
 
         /// <summary>
@@ -60,11 +60,42 @@ namespace tes_CSharpe_ResourceText.线程
         /// <summary>
         /// 测试线程池
         /// </summary>
-        void EnqueueThreadPool()
+        private void EnqueueThreadPool()
         {
             ThreadPool.QueueUserWorkItem(DoWork);
             ThreadPool.QueueUserWorkItem(DoWork,"pool");             
         }
-        
+
+        /// <summary>
+        /// 测试waitHandle API
+        /// </summary>
+        private void TesWaitHandle()
+        {
+            Console.WriteLine("Main starting.");
+            AutoResetEvent autoEvent = new AutoResetEvent(false);
+
+            ThreadPool.QueueUserWorkItem(
+                new WaitCallback(WorkMethod), autoEvent);
+
+            // Wait for work method to signal.
+            autoEvent.WaitOne();//挂起AutoRestEvent进程，直到接到信息
+            Console.WriteLine("Work method signaled.\nMain ending.");
+        }
+
+        /// <summary>
+        /// 测试waitHandle API
+        /// </summary>
+        private void WorkMethod(object stateInfo)
+        {
+            Console.WriteLine("Work starting.");
+
+            // Simulate time spent working.
+            Thread.Sleep(new Random().Next(100, 2000));
+
+            // Signal that work is finished.
+            Console.WriteLine("Work ending.");
+            ((AutoResetEvent)stateInfo).Set();//通知waitOne进程可以继续了
+        }
+
     }
 }
