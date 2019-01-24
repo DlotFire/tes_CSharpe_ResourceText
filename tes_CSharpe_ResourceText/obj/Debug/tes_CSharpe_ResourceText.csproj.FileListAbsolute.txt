@@ -1,0 +1,9 @@
+D:\GitHub\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\bin\Debug\tes_CSharpe_ResourceText.exe.config
+D:\GitHub\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\bin\Debug\tes_CSharpe_ResourceText.exe
+D:\GitHub\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\bin\Debug\tes_CSharpe_ResourceText.pdb
+D:\GitHub\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\obj\Debug\tes_CSharpe_ResourceText.csprojAssemblyReference.cache
+D:\GitHub\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\obj\Debug\tes_CSharpe_ResourceText.o.resources
+D:\GitHub\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\obj\Debug\tes_CSharpe_ResourceText.csproj.GenerateResource.cache
+D:\GitHub\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\obj\Debug\tes_CSharpe_ResourceText.csproj.CoreCompileInputs.cache
+D:\GitHub\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\obj\Debug\tes_CSharpe_ResourceText.exe
+D:\GitHub\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\obj\Debug\tes_CSharpe_ResourceText.pdb

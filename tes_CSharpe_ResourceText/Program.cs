@@ -12,8 +12,9 @@ namespace tes_CSharpe_ResourceText
             //ts.testIPClient();
 
             //TestZip tesZip = new TestZip("o");
-            ClassTestDNS tesDns = new ClassTestDNS();
+            //ClassTestDNS tesDns = new ClassTestDNS();
 
+            线程.TesThreading tsThreading = new 线程.TesThreading();
         }
     }
 }
