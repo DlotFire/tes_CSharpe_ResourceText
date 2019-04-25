@@ -7,9 +7,9 @@ namespace tes_CSharpe_ResourceText
         static void Main(string[] args)
         {
             //TestConvertDotResource ts = new TestConvertDotResource();
-            //ts.resPrint();
-            //ts.testIPAddress();
-            //ts.testIPClient();
+            //ts.ResPrint();
+            //ts.Test_IPAddress();
+            //ts.TestIPClient();
 
             //TestZip tesZip = new TestZip("o");
             //ClassTestDNS tesDns = new ClassTestDNS();

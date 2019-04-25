@@ -19,7 +19,7 @@ namespace tes_CSharpe_ResourceText
         /// <summary>
         /// 测试加载配制表resx
         /// </summary>
-        public void resPrint()
+        public void ResPrint()
         {
             ResourceManager res = new ResourceManager("tes_CSharpe_ResourceText.o", typeof(TestConvertDotResource).Assembly);
             if (res != null) Console.WriteLine("res not null");
@@ -38,7 +38,7 @@ namespace tes_CSharpe_ResourceText
         /// <summary>
         /// 测试ipAddress类、TcpListener类
         /// </summary>
-        public void testIPAddress()
+        public void Test_IPAddress()
         {
             Console.WriteLine(IPAddress.Any);
             Console.WriteLine(IPAddress.Broadcast);
@@ -64,7 +64,7 @@ namespace tes_CSharpe_ResourceText
             tread.IsBackground = false;
             tread.Start();
 
-            testIPClient();
+            TestIPClient();
             //server.Stop();
             Console.WriteLine("server end....");
         }
@@ -72,7 +72,7 @@ namespace tes_CSharpe_ResourceText
         /// <summary>
         /// 测试Client类
         /// </summary>
-        public void testIPClient()
+        public void TestIPClient()
         {
             client = new TcpClient("127.0.0.1", 8080);
             //Console.WriteLine(client.Available);
@@ -84,7 +84,7 @@ namespace tes_CSharpe_ResourceText
             //    {
             //        if (client.Connected)
             //        {
-            //            testSendMessg();
+            //            Test_SendMessg();
             //        }
 
             //    }
@@ -95,7 +95,7 @@ namespace tes_CSharpe_ResourceText
             //    {
             //        if (client.Connected)
             //        {
-            //            testSendMessg();
+            //            Test_SendMessg();
             //        }
 
             //    }
@@ -105,7 +105,7 @@ namespace tes_CSharpe_ResourceText
             {
                 while (true)
                 {
-                    testSendMessg();
+                    Test_SendMessg();
                 }
             }
         }
@@ -113,7 +113,7 @@ namespace tes_CSharpe_ResourceText
         /// <summary>
         /// 测试传送数据给服务端
         /// </summary>
-        public void testSendMessg()
+        public void Test_SendMessg()
         {
             string readLine = Console.ReadLine();
             //string readLine = DateTime.Today.ToString();
@@ -127,7 +127,7 @@ namespace tes_CSharpe_ResourceText
         /// <summary>
         /// 打印信息
         /// </summary>
-        public void testPrintMessg()
+        public void Test_PrintMessg()
         {
 
         }
