@@ -11,17 +11,10 @@ namespace tes_CSharpe_ResourceText.反射
         public string str;
         public int integer;
 
-        public string strPro;
         public string StrPro
         {
-            get
-            {
-                if (strPro == null)
-                {
-                    strPro = "this property call name strPro";
-                }
-                return strPro;
-            }
+            get;
+            set;
         }
 
         public TestClassOrder()
@@ -30,7 +23,11 @@ namespace tes_CSharpe_ResourceText.反射
         }
         public TestClassOrder(string str)
         {
-            Console.WriteLine("this is testClassOrder consturct that has parameter one.");
+            Console.WriteLine("this is testClassOrder consturct , string.");
+        }
+        public TestClassOrder(int integer)
+        {
+            Console.WriteLine("this is testClassOrder consturct , integer.");
         }
 
         public void FunctionPublic()
@@ -38,6 +35,6 @@ namespace tes_CSharpe_ResourceText.反射
             Console.WriteLine("call public FunctionPublic.");
         }
 
-       
+
     }
 }

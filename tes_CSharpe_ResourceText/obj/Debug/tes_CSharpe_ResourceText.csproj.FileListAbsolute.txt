@@ -15,3 +15,4 @@ E:\GitHubRepository\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\obj\Debug\
 E:\GitHubRepository\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\obj\Debug\tes_CSharpe_ResourceText.csproj.CoreCompileInputs.cache
 E:\GitHubRepository\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\obj\Debug\tes_CSharpe_ResourceText.exe
 E:\GitHubRepository\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\obj\Debug\tes_CSharpe_ResourceText.pdb
+E:\GitHubRepository\tes_CSharpe_ResourceText\tes_CSharpe_ResourceText\obj\Debug\tes_CSharpe_ResourceText.csprojAssemblyReference.cache

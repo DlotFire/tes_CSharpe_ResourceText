@@ -48,6 +48,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration.Install" />
@@ -65,6 +72,7 @@
   <ItemGroup>
     <Compile Include="反射\TestClassOrder.cs" />
     <Compile Include="反射\TestReflection_Assembly.cs" />
+    <Compile Include="反射\TestReflection_module.cs" />
     <Compile Include="反射\TestReflection_Type.cs" />
     <Compile Include="自定义安装程序类\Installer1.cs">
       <SubType>Component</SubType>

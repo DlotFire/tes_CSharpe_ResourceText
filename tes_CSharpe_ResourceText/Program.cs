@@ -18,7 +18,9 @@ namespace tes_CSharpe_ResourceText
 
             //new 序列化与反序列化.TestXPathQueryGenerator();
 
-            new 反射.TestReflection_Assembly();
+            //new 反射.TestReflection_Assembly();
+            //new 反射.TestReflection_module();
+            new 反射.TestReflection_Type();
         }
     }
 }

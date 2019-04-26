@@ -17,10 +17,10 @@ namespace tes_CSharpe_ResourceText.反射
 
             GetAssemblyInfo();
             CreateInstance();
-
+            GetModules();
         }
 
-        public void GetAssemblyInfo()
+        private void GetAssemblyInfo()
         {
             Console.WriteLine($"assembly.FullName:\n{assembly.FullName}\n");
             //Console.WriteLine(assembly.GetName());
@@ -44,25 +44,36 @@ namespace tes_CSharpe_ResourceText.反射
             Console.WriteLine("\nattributes:");
             foreach (Attribute item in attributes)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($" --{item}");
             }
 
             IEnumerable<TypeInfo> definedTypes = assembly.DefinedTypes;
             Console.WriteLine("\ndefinedTypes:");
             foreach (TypeInfo item in definedTypes)
             {
-                Console.WriteLine(item.Name);
+                Console.WriteLine($" --{item.Name}");
             }
 
-            Console.Write($"\nBoolean ReflectionOnly: {assembly.ReflectionOnly}");
+            Console.Write($"\nBoolean ReflectionOnly:\n --{assembly.ReflectionOnly}");
         }
 
-        public void CreateInstance()
+        private void CreateInstance()
         {
+            //类型动态实例后，一直存在
             object o = assembly.CreateInstance("tes_CSharpe_ResourceText.反射.TestClassOrder");
 
-            Console.WriteLine($"\n{o}");
+            Console.WriteLine($"\nCreateInstance:\n --{o}");
+            
         }
 
+        private void GetModules()
+        {
+            Module[] modules = assembly.GetModules();
+            Console.WriteLine("\nmodules:");
+            for (int i = 0; i < modules.Length; i++)
+            {
+                Console.WriteLine($" --{modules[i].Name}");
+            }
+        }
     }
 }
