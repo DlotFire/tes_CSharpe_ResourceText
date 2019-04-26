@@ -16,7 +16,9 @@ namespace tes_CSharpe_ResourceText
 
             //线程.TesThreading tsThreading = new 线程.TesThreading();
 
-            //序列化与反序列化.TestXPathQueryGenerator tsXpath = new 序列化与反序列化.TestXPathQueryGenerator();
+            //new 序列化与反序列化.TestXPathQueryGenerator();
+
+            new 反射.TestReflection_Assembly();
         }
     }
 }
