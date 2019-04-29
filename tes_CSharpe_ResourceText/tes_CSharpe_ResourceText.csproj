@@ -70,6 +70,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LINQ\TestIntroToLINQ.cs" />
     <Compile Include="反射\TestClassOrder.cs" />
     <Compile Include="反射\TestReflection_Assembly.cs" />
     <Compile Include="反射\TestReflection_module.cs" />
@@ -107,7 +108,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="IO操作\" />
-    <Folder Include="LINQ\" />
     <Folder Include="代码生成\" />
     <Folder Include="属性类\" />
   </ItemGroup>
