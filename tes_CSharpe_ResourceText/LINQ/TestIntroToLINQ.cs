@@ -38,6 +38,9 @@ namespace tes_CSharpe_ResourceText.LINQ
             public List<int> Scores;
         }
 
+        /// <summary>
+        /// 常用方式
+        /// </summary>
         private void Test_LINQArray()
         {
             // The Three Parts of a LINQ Query:
@@ -59,6 +62,9 @@ namespace tes_CSharpe_ResourceText.LINQ
 
         }
 
+        /// <summary>
+        /// LINQ where 关键字用法
+        /// </summary>
         private void Test_LINQBaseOperation()
         {
             IEnumerable<Student> studentQuery =
@@ -72,6 +78,9 @@ namespace tes_CSharpe_ResourceText.LINQ
             }
         }
 
+        /// <summary>
+        /// LINQ graoup关键字用法
+        /// </summary>
         private void Test_LINQGroup()
         {
             var studentQuery1 =
