@@ -22,12 +22,17 @@ namespace tes_CSharpe_ResourceText.LINQ
    new Student {First="Eugene", Last="Zabokritski", ID=121, Scores= new List<int> {96, 85, 91, 60}},
    new Student {First="Michael", Last="Tucker", ID=122, Scores= new List<int> {94, 92, 91, 91} }
 };
+        
+        public int id => Test_lambdaField();
 
         public TestIntroToLINQ()
         {
             //Test_LINQArray();
             //Test_LINQBaseOperation();
             Test_LINQGroup();
+
+            //int id2 = id;
+            //Console.WriteLine(id2);
         }
 
         private class Student
@@ -92,7 +97,17 @@ namespace tes_CSharpe_ResourceText.LINQ
                 Console.WriteLine($"Key: {item.Key} ,value: {item}");
             }
         }
-
+        
+        /// <summary>
+        /// 测试Lambda给字段赋值
+        /// </summary>
+        /// <returns></returns>
+        private int Test_lambdaField()
+        {
+            //初始化的时候，并不会给字段赋值
+            Console.WriteLine("field value");
+            return 10;
+        }
 
     }
 }

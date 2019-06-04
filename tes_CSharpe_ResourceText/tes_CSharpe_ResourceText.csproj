@@ -110,6 +110,8 @@
     <Folder Include="IO操作\" />
     <Folder Include="代码生成\" />
     <Folder Include="属性类\" />
+    <Folder Include="异步编程\" />
+    <Folder Include="本机互操作\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
