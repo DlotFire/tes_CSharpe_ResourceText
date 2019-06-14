@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LINQ\TestIntroToLINQ.cs" />
+    <Compile Include="代码生成\Tes_MD5.cs" />
     <Compile Include="反射\TestClassOrder.cs" />
     <Compile Include="反射\TestReflection_Assembly.cs" />
     <Compile Include="反射\TestReflection_module.cs" />
@@ -108,7 +109,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="IO操作\" />
-    <Folder Include="代码生成\" />
     <Folder Include="属性类\" />
     <Folder Include="异步编程\" />
     <Folder Include="本机互操作\" />

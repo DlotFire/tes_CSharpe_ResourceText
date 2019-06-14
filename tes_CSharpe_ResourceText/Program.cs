@@ -24,7 +24,8 @@ namespace tes_CSharpe_ResourceText
             //new 反射.TestReflection_module();
             //new 反射.TestReflection_Type();
 
-            new LINQ.TestIntroToLINQ();
+            //new LINQ.TestIntroToLINQ();
+            new 代码生成.Tes_MD5();
         }
 
         private static void GetProjectPath()
