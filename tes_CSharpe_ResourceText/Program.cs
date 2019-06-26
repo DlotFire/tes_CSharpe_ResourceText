@@ -22,14 +22,15 @@ namespace tes_CSharpe_ResourceText
 
             //new 反射.TestReflection_Assembly();
             //new 反射.TestReflection_module();
-            //new 反射.TestReflection_Type();
+            new 反射.TestReflection_Type();
 
             //new LINQ.TestIntroToLINQ();
-            new 代码生成.Tes_MD5();
+            //new 代码生成.Tes_MD5();
         }
 
         private static void GetProjectPath()
         {
+            Console.WriteLine("=====================Get Project Path===============================");
             //1.获取模块的完整路径。 
             Console.WriteLine($"System.Diagnostics.Process.GetCurrentProcess():" +
                 $" \n{System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName}\n");

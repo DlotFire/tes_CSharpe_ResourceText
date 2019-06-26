@@ -10,6 +10,8 @@ namespace tes_CSharpe_ResourceText.反射
     {
         public string str;
         public int integer;
+        public static string staticStr;
+        public static int staticIntarge;
 
         public string StrPro
         {
