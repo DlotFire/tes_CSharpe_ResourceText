@@ -76,13 +76,13 @@
     <Compile Include="反射\TestReflection_Assembly.cs" />
     <Compile Include="反射\TestReflection_module.cs" />
     <Compile Include="反射\TestReflection_Type.cs" />
+    <Compile Include="序列化与反序列化\Tes_BinaryFormatter.cs" />
     <Compile Include="自定义安装程序类\Installer1.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="自定义安装程序类\Installer1.Designer.cs">
       <DependentUpon>Installer1.cs</DependentUpon>
     </Compile>
-    <Compile Include="序列化与反序列化\TestXPathQueryGenerator.cs" />
     <Compile Include="网络\ClassTestDNS.cs" />
     <Compile Include="o.Designer.cs">
       <AutoGen>True</AutoGen>

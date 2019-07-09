@@ -26,6 +26,8 @@ namespace tes_CSharpe_ResourceText
 
             //new LINQ.TestIntroToLINQ();
             //new 代码生成.Tes_MD5();
+
+            //new 序列化与反序列化.Tes_BinaryFormatter();
         }
 
         private static void GetProjectPath()
