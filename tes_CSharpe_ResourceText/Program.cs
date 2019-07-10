@@ -22,12 +22,13 @@ namespace tes_CSharpe_ResourceText
 
             //new 反射.TestReflection_Assembly();
             //new 反射.TestReflection_module();
-            new 反射.TestReflection_Type();
+            //new 反射.TestReflection_Type();
 
             //new LINQ.TestIntroToLINQ();
             //new 代码生成.Tes_MD5();
 
             //new 序列化与反序列化.Tes_BinaryFormatter();
+            new System_Diagnostics命名空间.TesClass_Trace();
         }
 
         private static void GetProjectPath()
