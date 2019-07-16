@@ -78,6 +78,9 @@
     <Compile Include="反射\TestReflection_module.cs" />
     <Compile Include="反射\TestReflection_Type.cs" />
     <Compile Include="序列化与反序列化\Tes_BinaryFormatter.cs" />
+    <Compile Include="特性类\Tes_Attribe.cs" />
+    <Compile Include="特性类\Tes_Attribe_templete_1.cs" />
+    <Compile Include="特性类\Tes_Attribe_templete_2.cs" />
     <Compile Include="自定义安装程序类\Installer1.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -110,7 +113,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="IO操作\" />
-    <Folder Include="属性类\" />
     <Folder Include="异步编程\" />
     <Folder Include="本机互操作\" />
   </ItemGroup>

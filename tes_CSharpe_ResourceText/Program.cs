@@ -28,7 +28,9 @@ namespace tes_CSharpe_ResourceText
             //new 代码生成.Tes_MD5();
 
             //new 序列化与反序列化.Tes_BinaryFormatter();
-            new System_Diagnostics命名空间.TesClass_Trace();
+            //new System_Diagnostics命名空间.TesClass_Trace();
+
+            new 特性类.Tes_Attribe();
         }
 
         private static void GetProjectPath()
