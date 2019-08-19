@@ -71,7 +71,7 @@ namespace tes_CSharpe_ResourceText.XML
             }
 
             XmlNode nodElement;
-            if (addXMLID(node, id.ToString(), out nodElement))//存在id这个节点
+            if (AddXMLID(node, id.ToString(), out nodElement))//存在id这个节点
             {
                 XmlNode node_name = nodElement.SelectSingleNode(name);
                 if (node_name == null)

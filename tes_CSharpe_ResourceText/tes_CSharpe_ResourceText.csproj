@@ -72,6 +72,7 @@
   <ItemGroup>
     <Compile Include="LINQ\TestIntroToLINQ.cs" />
     <Compile Include="System_Diagnostics命名空间\TesClass_Trace.cs" />
+    <Compile Include="XML\Record_CreateXML.cs" />
     <Compile Include="代码生成\Tes_MD5.cs" />
     <Compile Include="反射\TestClassOrder.cs" />
     <Compile Include="反射\TestReflection_Assembly.cs" />
