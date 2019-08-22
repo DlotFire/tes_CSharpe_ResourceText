@@ -101,6 +101,7 @@
     <Compile Include="线程\TesThreading.cs" />
     <Compile Include="网络\TestIPAdress.cs" />
     <Compile Include="网络\TestTCP_Client.cs" />
+    <Compile Include="进程\Tes_Process.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

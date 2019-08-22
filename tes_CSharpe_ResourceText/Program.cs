@@ -30,7 +30,8 @@ namespace tes_CSharpe_ResourceText
             //new 序列化与反序列化.Tes_BinaryFormatter();
             //new System_Diagnostics命名空间.TesClass_Trace();
 
-            new 特性类.Tes_Attribe();
+            //new 特性类.Tes_Attribe();
+            new 进程.Tes_Process();
         }
 
         private static void GetProjectPath()
